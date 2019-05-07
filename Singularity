@@ -75,7 +75,7 @@ From: nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
     pip install --no-cache-dir statsmodels
     pip install --no-cache-dir restview
     pip install --no-cache-dir tinkerer
-    pip install --no-cache-dir Pweave
+    #pip install --no-cache-dir Pweave
     pip install --no-cache-dir numba
 
     # Gnuplot
