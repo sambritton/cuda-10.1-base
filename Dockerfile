@@ -37,9 +37,9 @@ RUN # Dense Flow dependencies
 RUN apt-get install -y libzip-dev
 RUN # OpenCV build dependencies not already installed
 RUN apt-get install -y checkinstall yasm libjpeg-dev libjpeg8-dev \
-libjasper-dev libavcodec-dev libavformat-dev libswscale-dev \
-libdc1394-22-dev libgstreamer0.10-dev \
-libgstreamer-plugins-base0.10-dev libv4l-dev python-dev python-numpy \
+libavcodec-dev libavformat-dev libswscale-dev \
+libdc1394-22-dev libgstreamer1.0-dev \
+libgstreamer-plugins-base1.0-dev libv4l-dev python-dev python-numpy \
 libtbb-dev libqt4-dev libgtk2.0-dev libfaac-dev libmp3lame-dev \
 libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev \
 libxvidcore-dev x264 v4l-utils libgtk-3-dev
