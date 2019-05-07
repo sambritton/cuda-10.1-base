@@ -23,7 +23,7 @@ From: nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
     apt-get install -y ffmpeg
 
     # More utilities
-    apt-get install -y graphviz libatlas-dev libfreetype6 libfreetype6-dev \
+    apt-get install -y graphviz libatlas-base-dev libfreetype6 libfreetype6-dev \
         libgraphviz-dev liblapack-dev swig libxft-dev libxml2-dev \
         libxslt-dev zlib1g-dev
  
