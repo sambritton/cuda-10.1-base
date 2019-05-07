@@ -58,7 +58,6 @@ RUN pip install --no-cache-dir Cython
 RUN pip install --no-cache-dir statsmodels
 RUN pip install --no-cache-dir restview
 RUN pip install --no-cache-dir tinkerer
-RUN pip install --no-cache-dir Pweave
 RUN pip install --no-cache-dir numba
 RUN # Gnuplot
 RUN apt-get install -y gnuplot-x11
