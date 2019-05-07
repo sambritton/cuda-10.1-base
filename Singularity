@@ -8,8 +8,8 @@ From: nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
     DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 
     # Workaround for https://github.com/keras-team/keras/issues/9567
-    apt-get install -y --allow-downgrades --no-install-recommends \
-        libcudnn7=7.0.5.15-1+cuda9.0 libcudnn7-dev=7.0.5.15-1+cuda9.0 
+    #apt-get install -y --allow-downgrades --no-install-recommends \
+    #    libcudnn7=7.0.5.15-1+cuda9.0 libcudnn7-dev=7.0.5.15-1+cuda9.0 
     
     # Utility and support packages
     apt-get install -y screen terminator tmux vim wget 
@@ -61,12 +61,12 @@ From: nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
     pip install --no-cache-dir Pillow
     
     # Jupyter and jupyterlab
-    pip install --no-cache-dir jupyter
-    pip install --no-cache-dir jupyterlab
+    # pip install --no-cache-dir jupyter
+    # pip install --no-cache-dir jupyterlab
 
     # Various useful Python packages
     pip install --no-cache-dir pygraphviz
-    pip install --no-cache-dir networkx
+    #pip install --no-cache-dir networkx
     pip install --no-cache-dir numexpr
     pip install --no-cache-dir pymc
     pip install --no-cache-dir patsy
