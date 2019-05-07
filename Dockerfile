@@ -36,6 +36,7 @@ RUN apt-get install -y python-pygments python-sphinx
 RUN # Dense Flow dependencies
 RUN apt-get install -y libzip-dev
 RUN # OpenCV build dependencies not already installed
+RUN # Libjasper-dev is no longer available in 18.04
 RUN apt-get install -y checkinstall yasm libjpeg-dev libjpeg8-dev \
 libavcodec-dev libavformat-dev libswscale-dev \
 libdc1394-22-dev libgstreamer1.0-dev \
@@ -58,6 +59,7 @@ RUN pip install --no-cache-dir Cython
 RUN pip install --no-cache-dir statsmodels
 RUN pip install --no-cache-dir restview
 RUN pip install --no-cache-dir tinkerer
+RUN #pip install --no-cache-dir Pweave
 RUN pip install --no-cache-dir numba
 RUN # Gnuplot
 RUN apt-get install -y gnuplot-x11
