@@ -16,7 +16,7 @@ RUN # add-apt-repository -y ppa:jonathonf/ffmpeg-3
 RUN apt-get update
 RUN apt-get install -y ffmpeg
 RUN # More utilities
-RUN apt-get install -y graphviz libatlas-dev libfreetype6 libfreetype6-dev \
+RUN apt-get install -y graphviz libatlas-base-dev libfreetype6 libfreetype6-dev \
 libgraphviz-dev liblapack-dev swig libxft-dev libxml2-dev \
 libxslt-dev zlib1g-dev
 RUN # Python modules from system package manager
