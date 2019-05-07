@@ -18,7 +18,7 @@ From: nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
     apt-get install -y unrar
    
     # Add PPA for ffmpeg
-    add-apt-repository -y ppa:jonathonf/ffmpeg-3
+    # add-apt-repository -y ppa:jonathonf/ffmpeg-3
     apt-get update
     apt-get install -y ffmpeg
 
