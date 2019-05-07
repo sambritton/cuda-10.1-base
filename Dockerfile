@@ -12,7 +12,7 @@ RUN apt-get install -y aptitude build-essential cmake g++ gfortran git \
 pkg-config python-pip python-dev software-properties-common
 RUN apt-get install -y unrar
 RUN # Add PPA for ffmpeg
-RUN add-apt-repository -y ppa:jonathonf/ffmpeg-3
+RUN # add-apt-repository -y ppa:jonathonf/ffmpeg-3
 RUN apt-get update
 RUN apt-get install -y ffmpeg
 RUN # More utilities
